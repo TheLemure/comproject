@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JagTrans - University of South Alabama</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+    <script src="shelby_hall.js"></script>
+    <div class="header">
+        <img src="assets/logo-header-lg.jpg" alt="South-alabama-logo" width="464" height="80" class="logo">
+    </div>
+    <div class="navbar">
+        <a href="#bus-routes">Bus Routes</a>
+        <a href="#about">About</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <div id="bus-routes" class="section">
+        <h2>Bus routes</h2>
+        <button class="button button6" onclick="displayImage('assets/MasterMap.png')"><span class="glyphicon glyphicon-road"></span> Master Map</button>
+        <button class="button button1" onclick="displayImage('assets/jagtran-green.jpg')"><span class="glyphicon glyphicon-road "></span> Green Route</button>
+        <button class="button button2" onclick="displayImage('assets/jagtran-blue.jpg')"><span class="glyphicon glyphicon-road"></span> Blue Route</button>
+        <button class="button button3" onclick="displayImage('assets/jagtran-yellow.jpg')"><span class="glyphicon glyphicon-road"></span> Yellow Route</button>
+        <button class="button button4" onclick="displayImage('assets/jagtran-red.jpg')"><span class="glyphicon glyphicon-road"></span> Red Route</button>
+        <button class="button button5" onclick="displayImage('assets/jagtran-orange.jpg')"><span class="glyphicon glyphicon-road"></span> Orange Route</button>
+
+        <!-- The displayImage function dynamically creates an image element and appends it to a container (imageContainer) in the body.
+      This makes the image actually go in the body -->
+        <div class="image-container" id="imageContainer"></div>
+
+
+    <div id="about" class="section">
+
+        <h2>About JagTrans</h2>
+
+        <p>JagTrans is the official transportation service at the University of South Alabama. We provide convenient and reliable transportation options for students, faculty, and staff.</p>
+
+    </div>
+    <script src="shelby_hall.js"></script>
+</body>
+<footer>
+    <div id="Contact">
+        <h2>Contact JagTrans</h2>
+        <p>For any inquiries or feedback, feel free to reach out to us:</p>
+        <p>Email: jagtrans@southalabama.edu</p>
+        <p>Phone: (251) 460-7735</p>
+    </div>
+</footer>
+<map name="defaultMap">
+    <!-- Define areas for the MasterMap -->
+    <area shape="rect" coords="720,320,800,360" href="shelby_hall.html" alt="Shelby Hall">
+    <area shape="rect" coords="735,200,800,250" href="student_center.html" alt="Student Center">
+    <area shape="rect" coords="650,200,680,250" href="communications_building.html" alt="Communications Building">
+    <!-- Add more areas as needed -->
+</map>
+
+</html>

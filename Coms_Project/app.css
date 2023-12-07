@@ -1,0 +1,131 @@
+
+/* makes font Roboto */
+h2 {
+  font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;
+}
+
+img {
+  display: block;
+  margin: auto; /* Adjust the margin as needed */
+  width: 35%;
+  height: 35%;
+  margin-left: 10px;
+}
+/* makes header have gradient and alligns it to center */
+.header {
+    text-align: center;
+    background: rgb(27,81,192);
+    background: linear-gradient(180deg, rgba(27,81,192,1) 34%, rgba(7,9,74,1) 100%);
+    padding: 20px
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+/* Makes a navbar below the header */
+.navbar {
+    background-color: rgba(7,9,74,1);
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+/* when you hover over the navbar icons it changes color */
+.navbar a:hover {
+    background-color: #717171;
+    color: white;
+}
+/* makes it so you can add padding to things */
+.section {
+    padding: 10px;
+    text-align: center;
+}
+/* was for the image but i removed it */
+.bus-map {
+    position: relative;
+}
+/* centers things */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.verticalhorizontal {
+    display: table-cell;
+    height: 200px;
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;
+}
+/* bottom of the page configs */
+footer {
+    text-align: center;
+    background-color: rgba(7,9,74,1);
+    color: white;
+    position: relative;
+    padding: 10px 10px;
+}
+/* button configs */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* All button hover settings */
+.button1:hover{
+  background-color: #007537;/* Dark Green*/
+}
+.button2:hover{
+    background-color: #0b265e;/* Dark Blue */
+}
+.button3:hover{
+  background-color: #c9910e;/*Dark Yellow*/
+}
+.button4:hover{
+  background-color:#9f1237;/*Dark Red*/
+}
+.button5:hover{
+  background-color:#c0581a;/*Dark Orange*/
+}
+.button6:hover{
+  background-color:#343232;/*Dark Gray*/
+}
+/* Regular button question */
+.button1 {
+  background-color: #00a950;/* Green */
+  }
+.button2 {
+  background-color: #0d2c6c;/* Blue */
+  }
+.button3{
+  background-color: #fcb712;/*yellow*/
+}
+.button4{
+  background-color:#d21849 ;/* Red */
+}
+.button5{
+  background-color:#f37022; /*orange*/
+}
+.button6{
+  background-color:#000000; /*Black*/
+}
+map {
+  display: inline;
+}
